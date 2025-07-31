@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 def sendEmail():
     sender = "@gmail.com"
     receiver = "someone@example.com"
-    password = "your-app-password-here"  # 🔹 Use the app password
+    password = "your-app-password-here"  
 
     msg = MIMEText("Hello, this is a test email.")
     msg["Subject"] = "Test Email"
